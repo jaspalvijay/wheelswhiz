@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about-WheelsWhiz</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<!-- START OF CSS -->
+  <style>
+    /* .navbar{
+            height: 100px;
+        } */
+    * {
+      font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .navbar-brand {
+      padding: 0% 3%;
+      font-family: 'Montserrat', sans-serif;
+      font-style: italic;
+      font-size: 30px;
+    }
+
+    .nav-item {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .collapse {
+      padding: 0% 5%;
+    }
+
+    .dropdown a:hover {
+      background-color: #E76161;
+    }
+
+    #top {
+      background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7)30%, rgba(0, 0, 0, 0.7)30%), url(picture/freight-shipping.jpg);
+      padding-top: 10px;
+      background-size: cover;
+    }
+
+    .w p {
+      padding-top: 15px;
+      font-size: 25px;
+    }
+
+    #ab {
+      padding: 80px;
+    }
+
+    #wc {
+      padding: 80px;
+      background-color: rgba(222, 227, 233, 0.33);
+      /* box-shadow: 0 5px 10px rgba(0,0,0,2); */
+
+    }
+
+    #about {
+      padding: 80px 0px;
+    }
+
+    .card {
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.95);
+      overflow: hidden;
+      /* border-radius: 15px; */
+      border: 2px solid #ffffff;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+      height: auto;
+      width: auto;
+      /* margin: 6% 0 0 9%; */
+      /* position: relative; */
+
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* .img1{
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+} */
+    /* .img2{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-top: -80px;
+} */
+    /* .card:hover .img2{
+  border-color: #19a7ce;
+  transition: .5s;
+} */
+    .card-body {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.65);
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: .5s ease;
+    }
+
+    .card-body h4 {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 20px;
+      /* margin: 0 0 20px; */
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .card-body h2 {
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 25px;
+      margin-top: 15px;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+
+      /* transform: rotate(-5deg)skewX(-5deg); */
+    }
+
+    .card-body p {
+      font-size: 15px;
+      /* padding-bottom: 10px; */
+      color: #fff;
+      /* text-align: justify; */
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .card:hover .card-body {
+      height: 100%;
+    }
+
+    .fa-2x:hover {
+      color: #c2ffffd9;
+    }
+
+    i {
+      color: #fff;
+    }
+
+    i:hover {
+      color: #E76161;
+    }
+
+    .quote h4 {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      color: rgba(5, 41, 73, 0.635);
+    }
+
+
+    .lft {
+      margin-left: 40px;
+    }
+
+    .te-g {
+      margin-top: 50px;
+      font-size: 40px;
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 20px;
+    }
+
+    .pr {
+      margin-top: 20px;
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 30px;
+    }
+
+    .bon {
+      /* margin-bottom: 50px; */
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 30px;
+    }
+
+    .lft1 {
+      margin-left: 40px;
+    }
+
+    .kc-iu {
+      margin-top: 50px;
+      font-size: 40px;
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 20px;
+    }
+
+    .nk {
+      margin-top: 20px;
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 30px;
+    }
+
+    .par {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+<!-- END OF CSS -->
+
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+    <!-- NAVBAR -->
+  <section id="top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+      <h1 class="navbar-brand" style="font-size: 35px;">WheelsWhiz
+      </h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="btn btn-outline-light mr-2 mb-2" style="border-radius: 15px;" href="home.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- <a class="btn btn-outline-light mr-2 mb-2" href="vehicle.html">Vehicle</a> -->
+            <div class="dropdown">
+              <button class="btn btn-outline-light dropdown-toggle mr-2 mb-2" type="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 15px;">
+                Services
+              </button>
+              <div class="dropdown-menu bg-light" style="border:1px solid; min-width: min-content;"
+                aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item mr-2 " style="text-align: center;" href="home.html#cards">Book</a>
+                <a class="dropdown-item mr-2 " style="text-align: center;" href="home.html#cards">Rent</a>
+                <a class="dropdown-item mr-2 " style="text-align: center;" href="home.html#cards">Ride</a>
+                <a class="dropdown-item " style="text-align: center;" href="home.html#cards">Sell</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light mr-2 mb-2" style="border-radius: 15px;" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light mr-4 mb-2" style="border-radius: 15px;" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item" style="padding-top: 4px;">
+            <a style="color: #fff;" href="account.html"><i class="fa fa-user-circle-o fa-2x"></i></a>
+            <!-- <div class="dropdown">
+                      <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 20px;">
+                        Account
+                      </button>
+                      <div class="dropdown-menu bg-transparent" style="border:1px solid; min-width: min-content;" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item mr-2 up" style="text-align: center;" href="signin.html">Sign In</a>
+                        <a class="dropdown-item up" style="text-align: center;" href="signup.html">Sign Up</a>
+                      </div>
+                  </div> -->
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+  <!-- FIRST CONTAINER -->
+    <div class="container-fluid text-center py-5">
+      <h1 class="text-white display-2" style="padding-top: 40px;">About</h1>
+
+      <div class="d-inline-flex align-items-center text-white w" style="padding-bottom: 80px;">
+        <p>
+          <a class="text-white" href="home.html">Home</a>
+        </p>
+        <i class="fa fa-circle px-3"></i>
+        <p>About</p>
+      </div>
+    </div>
+  </section>
+  <!-- END OF FIRST CONTAINER -->
+  <!-- END OF HEADER -->
+
+<!-- SECOND CONTAINER -->
+  <section id="ab">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 mb-4">
+          <img src="picture/truck2.jpg" alt="" style="width: 100%; height: 350px;">
+          <h3 class="text-center py-4" style="background-color: #E76161; color: #fff;"><i class="fa fa-"></i>
+            Best In Industry</h3>
+        </div>
+        <div class="col-md-7" style="padding: 40px 0px;">
+          <h5 style="color: #e76161;">ABOUT US</h5>
+          <h1>Trusted & Fastest Service Provider</h1>
+          <p style="text-align: justify; padding: 10px 0px; color: rgba(163, 168, 168, 0.918);">In a service company
+            whose main task is to provide the best quality of service for its
+            customers, that is how the service company provide the best service possible for its members so
+            that
+            satisfaction can be achieved.
+            This website is designed for all the customers, who need the service of any carry load,
+            traveling,
+            visiting, picking, dropping etc.</p>
+          <a class="btn btn-lg lig" href="readmore.html" style="background-color: #E76161; color: #fff;">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- END OF SECOND CONTAINER -->
+
+<!-- THIRD CONTAINER -->
+  <section id="wc">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 mb-4">
+          <img src="picture/main-qimg-ed531bee73578e6f0a04ebe27aa10f3d.webp" alt="" style="width: 100%; height: 350px;">
+        </div>
+        <div class="col-md-7" style="padding: 35px 0px;">
+          <h5 style="color: #e76161;">WHY CHOOSE US</h5>
+          <h1>Faster, Safe and Trusted</h1>
+          <p style="text-align: justify; padding: 10px 0px; color: rgba(163, 168, 168, 0.918);">Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Illum omnis, provident et at qui quae obcaecati nihil nemo recusandae
+            optio pariatur magni vero quos accusantium illo natus maxime ea reprehenderit?</p>
+          <a class="btn btn-lg lig" href="readmore.html" style="background-color: #E76161; color: #fff;">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- END OF THIRD CONTAINER -->
+
+<!-- FOURTH CONTAINER -->
+  <section id="about">
+    <div class="container-fluid text-center">
+      <h5 style="color: #e76161;">OUR TEAM</h5>
+      <h1>Meet Our Management Team</h1>
+      <div class="row justify-content-center" style="padding-top: 40px;">
+        <div class=" cards-box col-md-3 d-flex mb-4">
+          <div class="card">
+            <!-- <img class="img1" src="picture/bike.jpg" alt="" > -->
+            <img src="picture/jaspal1.jpg" alt="">
+            <div class="card-body">
+              <h2>Jaspal</h2>
+              <h4>Web Designer</h4>
+              <p>I am a web designer. A web designer is a person who works to maximize the usability and the user
+                experience. He knows what designs perfectly suit the particular business niche and how users will
+                interact with the website.</p>
+              <a class=" mr-2" href="https://www.linkedin.com/in/jaspal-s-843234193"><i
+                  class="fa fa-linkedin fa-fw"></i></a>
+              <a class=" mr-2" href="https://wa.me/qr/RXZPRKNBRNQIP1"><i class="fa fa-whatsapp fa-fw"></i></a>
+              <a class=" mr-2" href="https://www.facebook.com/jaspal.vijay.3"><i class="fa fa-facebook fa-fw"></i></a>
+              <a class=" mr-2" href="https://instagram.com/this_is_jaspal?igshid=ZDdkNTZiNTM="><i
+                  class="fa fa-instagram fa-fw"></i></a>
+              <a class=" mr-2" href="https://twitter.com/Jaspal00093349?s=09"> <i class="fa fa-twitter fa-fw"></i></a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class=" cards-box col-md-3 d-flex mb-4">
+          <div class="card">
+            <!-- <img class="img1" src="picture/bike.jpg" alt=""> -->
+            <img src="picture/Shoba.jpeg" alt="">
+            <div class="card-body">
+              <h2>Shobha</h2>
+              <h4>Full Stack Developer</h4>
+              <p>I am Full Stack Developer.
+                A Full Stack Developer is the one who takes the sole responsibility for the website. They are the one
+                who works with the Back End as well as the Front End of a website.</p>
+              <a class=" mr-2" href="https://www.linkedin.com/in/shobha-kaithwas-9b8a8b273"><i
+                  class="fa fa-linkedin fa-fw"></i></a>
+              <a class=" mr-2" href="https://wa.me/qr/HB2D5IOTVJB3L1"><i class="fa fa-whatsapp fa-fw"></i></a>
+              <a class=" mr-2" href="https://www.facebook.com/profile.php?id=100091883542869&mibextid=ZbWKwL"><i
+                  class="fa fa-facebook fa-fw"></i></a>
+              <a class=" mr-2" href="https://instagram.com/shobha_kaithwas?igshid=ZDdkNTZiNTM="><i
+                  class="fa fa-instagram fa-fw"></i></a>
+              <a class=" mr-2" href=""> <i class="fa fa-twitter fa-fw"></i></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="cards-box col-md-3 d-flex mb-4">
+          <div class="card">
+            <!-- <img class="img1" src="picture/bike.jpg" alt="" > -->
+            <img src="picture/Daljeet.jpeg" alt="">
+            <div class="card-body">
+              <h2>Daljeet Singh</h2>
+              <h4>Solution Architect</h4>
+              <p>I am a solution architect.A solution architect is a person who understands the project and creates a
+                wireframe that visualizes all aspects of applications aligning with the business vision.</p>
+              <a class=" mr-2" href=""><i class="fa fa-linkedin fa-fw"></i></a>
+              <a class=" mr-2" href="https://wa.me/qr/TU5PYHBH6UNHF1"><i class="fa fa-whatsapp fa-fw"></i></a>
+              <a class=" mr-2" href="https://www.facebook.com/profile.php?id=100010209123228&mibextid=ZbWKwL"><i
+                  class="fa fa-facebook fa-fw"></i></a>
+              <a class="mr-2" href="https://instagram.com/daljeet_bachiwindia?igshid=ZDdkNTZiNTM="><i
+                  class="fa fa-instagram fa-fw"></i></a>
+              <a class=" mr-2" href=""><i class="fa fa-twitter fa-fw"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+<!-- END OF FOURTH CONTAINER -->
+
+<!-- FOOTER -->
+  <section id="footer">
+    <div class="container-fluid bg-dark ">
+      <div class="row">
+        <div class="col-md-5 lft">
+          <h3 class="text-light te-g">Get In Touch</h3>
+          <div class="pr">
+            <p class="text-light"><i class="fa fa-map-marker fa-fw"></i> Kirti Nagar,Hoshiarpur Road,Phagwara, Punjab
+            </p>
+            <p class="text-light"><i class="fa fa-phone fa-fw"></i> +918 1959 09865</p>
+            <p class="text-light"><i class="fa fa-envelope fa-fw"></i> jaspal282000@gmail.com</p>
+          </div>
+          <div class="d-flex justify-content-start mt-4 mb-3 bon">
+            <a class="btn btn-outline-light btn-sm mr-2" href="https://wa.me/qr/RXZPRKNBRNQIP1"><i
+                class="fa fa-whatsapp fa-fw"></i></a>
+            <a class="btn btn-outline-light btn-sm mr-2" href="https://twitter.com/Jaspal00093349?s=09"> <i
+                class="fa fa-twitter fa-fw"></i></a>
+            <a class="btn btn-outline-light btn-sm mr-2" href="https://www.facebook.com/jaspal.vijay.3"><i
+                class="fa fa-facebook fa-fw"></i></a>
+            <a class="btn btn-outline-light btn-sm mr-2"
+              href="https://instagram.com/this_is_jaspal?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram fa-fw"></i></a>
+          </div>
+        </div>
+        <div class="col-md-5 mb-5 lft1">
+          <h3 class="text-light kc-iu">Quick Links</h3>
+          <div class="d-flex flex-column nk ">
+            <a class="text-light mb-2" href="home.html"><i class="fa fa-chevron-right fa-fw "></i> Home</a>
+            <a class="text-light mb-2" href="about.html"><i class="fa fa-chevron-right fa-fw "></i> About Us</a>
+            <a class="text-light mb-2" href="service.html"><i class="fa fa-chevron-right fa-fw "></i> Our Services</a>
+            <a class="text-light" href="contact.html"><i class="fa fa-chevron-right fa-fw "></i> Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4" style="border-color: gray !important;">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="text-white par">&copy; <a style="color: #E76161;" href="readmore.html">WheelsWhiz</a>. All Rights
+            Reserved. Designed by <a style="color: #E76161;" href="home.html#slider">36 Designs</a></p>
+        </div>
+        <div class="col-lg-6 text-md-right">
+          <ul class="nav d-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link text-light py-0" href="terms & privacy.html"> Terms & Conditions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light py-0" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light py-0 help" href="help.html">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- END OF FOOTER -->
+
+</body>
+</html>

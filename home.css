@@ -1,0 +1,232 @@
+/* .navbar{
+    height: 100px;
+} */
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-brand {
+    padding: 0% 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.collapse {
+    padding: 0% 5%;
+}
+
+.fa-2x:hover {
+    color: #c2ffffd9;
+}
+
+.dropdown a:hover {
+    background-color: #E76161;
+}
+
+#intro {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7)30%, rgba(0, 0, 0, 0.7)30%), url(picture/freight-shipping.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-size: cover;
+}
+
+/* .name{
+    padding-top: 100px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    
+}
+.leno{
+    margin-top: 80px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+} */
+#ab {
+    padding: 80px;
+}
+
+#wc {
+    padding: 80px;
+    background-color: rgba(222, 227, 233, 0.33);
+
+}
+
+.lig {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cards {
+    padding: 7% 10%;
+    /* background-color: rgba(222, 227, 233, 0.33); */
+
+}
+
+.cards-box {
+    transition: all 1.2s;
+}
+
+.cards-box:hover {
+    transform: scale(1.12);
+    filter: blur(0.3px);
+}
+
+
+.margin-bottom {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.margin-right {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 6px;
+}
+
+.lft {
+    margin-left: 40px;
+}
+
+.te-g {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+.pr {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.bon {
+    /* margin-bottom: 50px; */
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.lft1 {
+    margin-left: 40px;
+}
+
+.kc-iu {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+.nk {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.par {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#slider {
+    /* background-color: #DAF5FF; */
+    padding: 80px 0px;
+    background-color: rgba(222, 227, 233, 0.33);
+}
+
+.carousel-item {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.jas {
+    width: 80%;
+    margin-left: 70px;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+}
+
+.na {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.le {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #E76161;
+}
+
+.th {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding-right: 70px;
+    padding-left: 20px;
+    color: rgba(135, 137, 137, 0.962);
+}
+
+.carousel-control-prev {
+    left: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+
+.carousel-control-prev:hover {
+    color: rgba(5, 41, 73, 0.597);
+}
+
+.carousel-control-next {
+    right: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+
+.carousel-control-next:hover {
+    color: rgba(5, 41, 73, 0.597);
+}
+
+#review {
+    padding: 80px 0px;
+}
+
+.card-box .card {
+    border: 2px solid;
+    /* background-color: #ffe5e552; */
+}
+
+.card-box .card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-box .card .card-body p {
+    color: rgb(5, 41, 73);
+}
+
+.card-box .card .card-body h6 {
+    color: rgb(5, 41, 73);
+}
+
+.card-box .card .card-body h3 {
+    color: #E76161;
+}

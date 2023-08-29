@@ -1,0 +1,139 @@
+/* body{
+    font-family: montserrat;
+    background: #e7e7e7;
+    height:100vh;
+} */
+/* .navbar{
+    height: 100px;
+} */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    padding: 0% 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.collapse {
+    padding: 0% 5%;
+}
+
+.fa-2x:hover {
+    color: #c2ffffd9;
+}
+
+.dropdown a:hover {
+    background-color: #E76161;
+}
+
+#top {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7)30%, rgba(0, 0, 0, 0.7)30%), url(picture/freight-shipping.jpg);
+    padding-top: 10px;
+    background-size: cover;
+}
+
+.w p {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+#contact {
+    /* background: linear-gradient(90deg, #19a7ce7e  50%, #2f7fad70 50%); */
+    margin: 150px 50px;
+}
+
+h4 {
+    background-color: #e76161;
+    padding: 20px;
+}
+
+/* .head{
+    font-weight: 400;
+    font-size: 25px;
+} */
+form {
+    background-color: rgba(136, 143, 150, 0.33);
+    padding: 40px;
+}
+
+.form-group {
+    padding: 6px 0px;
+}
+
+.bu {
+    width: 100%;
+    height: 55px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=number],
+input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.lft {
+    margin-left: 40px;
+}
+
+.te-g {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+.pr {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.bon {
+    /* margin-bottom: 50px; */
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.lft1 {
+    margin-left: 40px;
+}
+
+.kc-iu {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+.nk {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.par {
+    font-family: 'Montserrat', sans-serif;
+}

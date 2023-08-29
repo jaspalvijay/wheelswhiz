@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booktruck-Wheelswhiz</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<!-- CSS -->
+    <style>
+        * {
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        body {
+            background-color: rgba(222, 227, 233, 0.33);
+        }
+
+        .navbar-brand {
+            padding: 0% 3%;
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+        }
+
+        .nav-item {
+            font-family: 'Montserrat', sans-serif;
+            padding-top: 10px;
+        }
+
+        .collapse {
+            padding: 0% 5%;
+        }
+
+        .fa-2x:hover {
+            color: #c2ffffd9;
+
+        }
+
+        .dropdown a:hover {
+            background-color: #E76161;
+        }
+
+        #top {
+            background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7)30%, rgba(0, 0, 0, 0.7)30%), url(picture/freight-shipping.jpg);
+            padding-top: 10px;
+            background-size: cover;
+        }
+
+        .w p {
+            padding-top: 15px;
+            font-size: 25px;
+        }
+
+        /* .nav-tab{
+    background-color: aqua;
+    width: 200px;
+    height: 100vh;
+} */
+
+
+        .cards-box {
+            margin: 90px 50px;
+            transition: all 1.2s;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+            background-color: #f8dc9a;
+        }
+
+        .cards-box:hover {
+            transform: scale(1.12);
+            filter: blur(0.3px);
+        }
+
+        .card-body {
+            padding: 50px 20px;
+        }
+
+        .lft {
+            margin-left: 40px;
+        }
+
+        .te-g {
+            margin-top: 50px;
+            font-size: 40px;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 20px;
+        }
+
+        .pr {
+            margin-top: 20px;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 30px;
+        }
+
+        .bon {
+            /* margin-bottom: 50px; */
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 30px;
+        }
+
+        .lft1 {
+            margin-left: 40px;
+        }
+
+        .kc-iu {
+            margin-top: 50px;
+            font-size: 40px;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 20px;
+        }
+
+        .nk {
+            margin-top: 20px;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 30px;
+        }
+
+        .par {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+<!-- END OF CSS -->
+
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+    <!-- NAVBAR -->
+    <section id="top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+            <h1 class="navbar-brand" style="font-size: 35px;">WheelsWhiz
+            </h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light mr-2 mb-2" style="border-radius: 15px;"
+                            href="home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- <a class="btn btn-outline-light mr-2 mb-2" href="vehicle.html">Vehicle</a> -->
+                        <div class="dropdown">
+                            <button class="btn btn-outline-light dropdown-toggle mr-2 mb-2" type="button"
+                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                style="border-radius: 15px;">
+                                Services
+                            </button>
+                            <div class="dropdown-menu bg-light" style="border:1px solid; min-width: min-content;"
+                                aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item mr-2 " style="text-align: center;"
+                                    href="home.html#cards">Book</a>
+                                <a class="dropdown-item mr-2 " style="text-align: center;"
+                                    href="home.html#cards">Rent</a>
+                                <a class="dropdown-item mr-2 " style="text-align: center;"
+                                    href="home.html#cards">Ride</a>
+                                <a class="dropdown-item " style="text-align: center;" href="home.html#cards">Sell</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light mr-2 mb-2" style="border-radius: 15px;"
+                            href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light mr-4 mb-2" style="border-radius: 15px;"
+                            href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item" style="padding-top: 13px;">
+                        <a style="color: #fff;" href="account.html"><i class="fa fa-user-circle-o fa-2x"></i></a>
+                        <!-- <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 20px;">
+                      Account
+                    </button>
+                    <div class="dropdown-menu bg-transparent" style="border:1px solid; min-width: min-content;" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item mr-2 up" style="text-align: center;" href="signin.html">Sign In</a>
+                      <a class="dropdown-item up" style="text-align: center;" href="signup.html">Sign Up</a>
+                    </div>
+                </div> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- FIRST CONTAINER -->
+        <div class="container-fluid text-center py-5">
+            <h1 class="text-white display-2" style="padding-top: 40px;">Book A Truck</h1>
+
+            <div class="d-inline-flex align-items-center text-white w" style="padding-bottom: 80px;">
+                <p>
+                    <a class="text-white" href="home.html">Home</a>
+                </p>
+                <i class="fa fa-circle px-3"></i>
+                <p>Book</p>
+            </div>
+        </div>
+    </section>
+    <!-- END OF FIRST CONTAINER -->
+<!-- END OF HEADER -->
+
+<!-- SECOND CONTAINER -->
+    <section id="card">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" cards-box col-md-5">
+                    <img class="card-img-top" src="picture/owner (2).gif" alt="loading">
+                    <div class="card-body">
+                        <a class="btn btn-success btn-lg btn-block" style="border-radius: 15px;"
+                            href="search.html">Search Load</a>
+                    </div>
+
+                </div>
+                <div class="cards-box col-md-5">
+                    <img class="card-img-top" src="picture/customer (2).gif" alt="loading">
+                    <div class="card-body">
+                        <a class="btn btn-danger btn-lg btn-block" style="border-radius: 15px;" href="load.html">Post
+                            Load</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- END OF SECOND CONTAINER -->
+
+<!-- FOOTER -->
+    <section id="footer">
+        <div class="container-fluid bg-dark ">
+            <div class="row">
+                <div class="col-md-5 lft">
+                    <h3 class="text-light te-g">Get In Touch</h3>
+                    <div class="pr">
+                        <p class="text-light"><i class="fa fa-map-marker fa-fw"></i> Kirti Nagar,Hoshiarpur
+                            Road,Phagwara, Punjab</p>
+                        <p class="text-light"><i class="fa fa-phone fa-fw"></i> +918 1959 09865</p>
+                        <p class="text-light"><i class="fa fa-envelope fa-fw"></i> jaspal282000@gmail.com</p>
+                    </div>
+                    <div class="d-flex justify-content-start mt-4 mb-3 bon">
+                        <a class="btn btn-outline-light btn-sm mr-2" href="https://wa.me/qr/RXZPRKNBRNQIP1"><i
+                                class="fa fa-whatsapp fa-fw"></i></a>
+                        <a class="btn btn-outline-light btn-sm mr-2" href="https://twitter.com/Jaspal00093349?s=09"> <i
+                                class="fa fa-twitter fa-fw"></i></a>
+                        <a class="btn btn-outline-light btn-sm mr-2" href="https://www.facebook.com/jaspal.vijay.3"><i
+                                class="fa fa-facebook fa-fw"></i></a>
+                        <a class="btn btn-outline-light btn-sm mr-2"
+                            href="https://instagram.com/this_is_jaspal?igshid=ZDdkNTZiNTM="><i
+                                class="fa fa-instagram fa-fw"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-5 lft1">
+                    <h3 class="text-light kc-iu">Quick Links</h3>
+                    <div class="d-flex flex-column nk ">
+                        <a class="text-light mb-2" href="home.html"><i class="fa fa-chevron-right fa-fw "></i> Home</a>
+                        <a class="text-light mb-2" href="about.html"><i class="fa fa-chevron-right fa-fw "></i> About
+                            Us</a>
+                        <a class="text-light mb-2" href="service.html"><i class="fa fa-chevron-right fa-fw "></i> Our
+                            Services</a>
+                        <a class="text-light" href="contact.html"><i class="fa fa-chevron-right fa-fw "></i> Contact
+                            Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-white border-top py-4" style="border-color: gray !important;">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-white par">&copy; <a style="color: #E76161;" href="readmore.html">WheelsWhiz</a>. All
+                        Rights Reserved. Designed by <a style="color: #E76161;" href="home.html#slider">36 Designs</a>
+                    </p>
+                </div>
+                <div class="col-lg-6 text-md-right">
+                    <ul class="nav d-inline-flex">
+                        <li class="nav-item">
+                            <a class="nav-link text-light py-0" href="terms & privacy.html"> Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light py-0" href="faqs.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light py-0 help" href="contact.html">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- END OF FOOTER -->
+
+</body>
+
+</html>
